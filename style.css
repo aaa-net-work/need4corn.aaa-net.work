@@ -1,0 +1,99 @@
+html {
+    background-color: #300A37;
+    background-image:
+    url("bc_images/b3.png") ;
+    background-blend-mode: difference;
+}
+body{
+    border-color: #E9EC36;
+    border-width: 10px;
+    
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+#shortdescription {
+    color: #F834D4;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 20px auto;
+    padding: 30px;
+    background-image: url(bc_images/bc3.png);
+    background-size: 200%;
+}
+#intro {
+    max-width: 60%;
+}
+article {
+    color: #F8F42A;
+    margin: 20px auto;
+    opacity: 80%;
+    font-size: 15px;
+    text-align: justify;
+    background-image: url('bc_images/bg.png');
+    background-size: 150%;
+    background-position: 25% 75%;
+    background-blend-mode: difference;
+    padding: 30px 40px;
+    border: 2px dotted black;
+    border-radius: 15px;
+}
+article p {
+    color: #F8F42A;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+.project_buttons {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1em auto;
+    padding: 1em;
+    
+}
+.button{
+    max-width: fit-content;
+    border: 2px solid greenyellow;
+    padding: 10px;
+    font-size: 20px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    opacity: 80%;
+    
+}
+.button:hover{
+    background-color: yellow;
+}
+#contact {
+    max-height: 64px;
+}
+
+.trailerbox {
+    border: 1px solid black;
+}
+
+.other_projects {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1em auto;
+    padding: 1em;
+}
+
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px auto;
+    font-weight: bold;
+    background-image: url('bc_images/bg.png');
+    background-size: 200%;
+    background-position: 50% 50%;
+    opacity:65%;
+}
